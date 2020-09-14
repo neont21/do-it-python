@@ -1,3 +1,3 @@
-for i in range(2, 20):
-    for j in range(2, 20):
-        print(str(i) + ' X ' + str(j) + ' = ' + str(i * j))
+for item in range(2, 20):
+    for each in range(2, 20):
+        print(item, 'X', each, '=', item * each)
