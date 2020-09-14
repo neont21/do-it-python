@@ -3,10 +3,10 @@ import csv
 def opencsv(filename):
     f = open(filename, 'r')
     reader = csv.reader(f)
-    f.close()
-    otuput = []
+    output = []
     for i in reader:
         output.append(i)
+    f.close()
     return output
 
 def writecsv(filename, the_list):
